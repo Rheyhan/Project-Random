@@ -1,14 +1,14 @@
 import numpy as np
+from sklearn.neural_network import MLPClassifier
+
+
+MLPClassifier()
 
 
 
 
 
-
-
-
-
-def givelagvariable(dataset, t):
+def givelagvariable(dataset, t: int):
         '''Default t=1'''
         dataX, dataY = [], []
         for i in range(len(dataset)-t-1):
